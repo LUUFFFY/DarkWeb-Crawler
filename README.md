@@ -9,7 +9,7 @@ Supports SOCKS5 proxy
 
 Installation:
 
-Install the required libraries: pip install requests bs4
+Install the required libraries: pip install requests bs4,
 Run the script with the URL and depth as arguments: python3 darkweb_crawler.py <URL> <DEPTH>
 
 Usage:
@@ -20,7 +20,7 @@ The crawler will output all emails, files, and keywords found on the website.
 
 Examples:
 
-Crawl the website http://example.onion/ up to a depth of 3: python3 darkweb_crawler.py http://example.onion/ 3
+Crawl the website http://example.onion/ up to a depth of 3: python3 darkweb_crawler.py http://example.onion/ 3,
 Crawl the website http://example.onion/ up to the maximum depth with a SOCKS5 proxy: python3 darkweb_crawler.py http://example.onion/ 0 --proxy socks5://user:pass@host:port
 
 Note:
