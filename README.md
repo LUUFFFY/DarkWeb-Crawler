@@ -9,6 +9,9 @@ Supports SOCKS5 proxy
 
 Installation:
 
+gitclone: https://github.com/LUUFFFY/DarkWeb-Crawler.git
+unzip the file with: gunzip/unzip
+cd file name
 Install the required libraries: pip install requests bs4,
 Run the script with the URL and depth as arguments: python3 darkweb_crawler.py <URL> <DEPTH>
 
