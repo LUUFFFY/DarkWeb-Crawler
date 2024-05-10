@@ -22,6 +22,7 @@ Specify the depth of the crawl (optional, default is 2).
 The crawler will output all emails, files, and keywords found on the website.
 
 Examples:
+![image](https://github.com/LUUFFFY/DarkWeb-Crawler/assets/73993417/ad49ca2a-eaab-46ca-8be5-959ea1e9c95e)
 
 Crawl the website http://example.onion/ up to a depth of 3: python3 darkweb_crawler.py http://example.onion/ 3,
 Crawl the website http://example.onion/ up to the maximum depth with a SOCKS5 proxy: python3 darkweb_crawler.py http://example.onion/ 0 --proxy socks5://user:pass@host:port
